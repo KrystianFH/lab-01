@@ -56,7 +56,7 @@ div:nth-child(9){
     height: 200px;
     line-height: 200px;
     width: 380px;
-    float: right;
+    float: left;
   }
 
   div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
@@ -69,4 +69,44 @@ div:nth-child(9){
     line-height: 150px;
     width: 760px;
   }
+}
+
+@media only screen and (min-width: 1000px){
+  body{
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  div:nth-child(1){
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  div:nth-child(2){
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+    float: left;
+  }
+
+  div:nth-child(3), div:nth-child(4){
+    height: 200px;
+    line-height: 200px;
+    width: 400px;
+    float: left;
+  }
+
+  div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+    width: 200px;
+    line-height: 250px;
+  }
+
+  div:nth-child(9){
+    height: 150px;
+    line-height: 150px;
+    width: 800px;
+  }
+
+
 }

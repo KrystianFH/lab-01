@@ -4,8 +4,18 @@ div {
 
 @media only screen and (min-width: 768px){
 
-div{
+  div{
   background-color: rgb(33, 123, 123);
+  border: 1px solid yellow;
 }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+  div{
+    background-color: rgb(181, 69, 181);
+    border: 2px dashed aliceblue;
+  }
 
 }
